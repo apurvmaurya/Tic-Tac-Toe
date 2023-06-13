@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    width: 60%;
+    margin-left: 20%;
+    height: 80vh;
+    gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+}
+
+.block{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comp{
+    background-image: url(./Images/comp.png);
+}
