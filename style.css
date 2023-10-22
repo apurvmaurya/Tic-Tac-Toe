@@ -13,9 +13,24 @@
     background-color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;   
 }
 
 .comp{
-    background-image: url(./Images/comp.png);
+    background-image: url("./Images/comp.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.you{
+    background-image: url("./Images/you.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.result{
+    height: 15vh;
+    font-size: 4rem;
+    color: greenyellow;
+    text-align: center;
 }
